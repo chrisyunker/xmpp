@@ -48,7 +48,7 @@ __user2 receives request from user1__
 
 __user2 accepts request from user1__
 ```xml
-<presence type='subscribed' to='username1@yunker.io'/>
+<presence type='subscribed' to='user1@yunker.io'/>
 ```
 
 __user1 receives ack from user2__

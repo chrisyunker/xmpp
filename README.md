@@ -1,2 +1,5 @@
 xmpp
 ====
+
+An XMPP reference
+

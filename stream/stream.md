@@ -1,6 +1,8 @@
-## http://etherx.jabber.org/streams
+## XMPP streams/features
 
-### get authentication features
+xmlns: http://etherx.jabber.org/streams
+
+### Get authentication features
 
 __request__
 ```xml
@@ -12,6 +14,8 @@ __response__
 ```xml
 <?xml version='1.0'?>
 <stream:stream xmlns="jabber:client" from="yunker.io" xml:lang="en" version="1.0" id="1" xmlns:stream="http://etherx.jabber.org/streams" />
+```
+```xml
 <stream:features>
   <mechanisms xmlns="urn:ietf:params:xml:ns:xmpp-sasl">
     <mechanism>PLAIN</mechanism>
@@ -21,7 +25,7 @@ __response__
 </stream:features>
 ```
 
-### get session features
+### Get session features
 
 __request__
 ```xml
@@ -33,6 +37,8 @@ __response__
 ```xml
 <?xml version='1.0'?>
 <stream:stream xmlns="jabber:client" from="yunker.io" xml:lang="en" version="1.0" id="2" xmlns:stream="http://etherx.jabber.org/streams" />
+```
+```xml
 <stream:features>
   <bind xmlns="urn:ietf:params:xml:ns:xmpp-bind" />
   <session xmlns="urn:ietf:params:xml:ns:xmpp-session" />

@@ -1,6 +1,8 @@
-## jabber:iq:roster
+## Roster
 
-### get roster
+xmlns: jabber:iq:roster
+
+### Get roster
 
 __request__
 ```xml
@@ -18,7 +20,7 @@ __response__
 </iq>
 ```
 
-### set roster
+### Set roster
 
 __request__
 ```xml
@@ -34,7 +36,7 @@ __request__
 __response__
 
 
-### subscribe
+### Subscribe
 
 __user1 subscribes to user2__
 ```xml

@@ -1,6 +1,8 @@
-## urn:ietf:params:xml:ns:xmpp-sasl
+## SASL Authentication
 
-### authenticate plain
+xmlns: urn:ietf:params:xml:ns:xmpp-sasl
+
+### Authenticate plain
 
 __request__
 ```xml

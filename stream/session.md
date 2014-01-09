@@ -1,6 +1,8 @@
-## urn:ietf:params:xml:ns:xmpp-session
+## Session
 
-### set session
+xmlns: urn:ietf:params:xml:ns:xmpp-session
+
+### Set session
 
 __request__
 ```xml

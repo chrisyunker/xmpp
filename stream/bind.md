@@ -1,6 +1,8 @@
-## urn:ietf:params:xml:ns:xmpp-bind
+## Bind
 
-### set bind
+xmlns: urn:ietf:params:xml:ns:xmpp-bind
+
+### Set bind
 
 __request__
 ```xml

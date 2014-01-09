@@ -1,6 +1,8 @@
-## jabber:iq:privacy
+## Privacy
 
-### get privacy list names
+xmlns: jabber:iq:privacy
+
+### Get privacy list names
 
 __request__
 ```xml
@@ -18,7 +20,7 @@ __response__
 </iq>
 ```
 
-### get specific privacy list
+### Get specific privacy list
 
 __request__
 ```xml
@@ -40,7 +42,7 @@ __response__
 </iq>
 ```
 
-### set privacy
+### Set privacy
 
 __request__
 ```xml
